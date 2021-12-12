@@ -1,0 +1,36 @@
+{
+  "name": "hackernews-api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --fix ./**/*.ts",
+    "build": "tsc",
+    "dev": "ts-node index.ts",
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameson-athanasiou/hackernews-api-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jameson-athanasiou/hackernews-api-server/issues"
+  },
+  "homepage": "https://github.com/jameson-athanasiou/hackernews-api-server#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.1"
+  },
+  "devDependencies": {
+    "@types/hapi__hapi": "^20.0.9",
+    "@types/node": "^16.11.12",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "eslint": "^8.4.1",
+    "ts-node": "^10.4.0",
+    "tslib": "^2.3.1",
+    "typescript": "^4.5.3"
+  }
+}
