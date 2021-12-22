@@ -25,6 +25,11 @@ const init = async () => {
         return { status: 'failed' }
       }
     },
+    options: {
+      cors: {
+        origin: ['*'],
+      },
+    },
   })
 
   await server.start()
